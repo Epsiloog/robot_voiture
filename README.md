@@ -11,7 +11,6 @@ Le fichier de configuration wpa_supplicant.conf contient les informations de con
 
 Le script en bash lancement.sh (qui sert à lire le bruitage de moteur au démarrage sur une enceinte connectée avec un cable jack) fonctionne grâce aux modifications apportée dans le fichier asound.conf. En effet, il a été nécessaire de faire ce script car le module mixer ne détectait que les périphériques audio HDMI ou bluetooth et non un appareil connecté avec un cable jack. Néanmoins, il est plus aisé d'utiliser la solution graphique alsamixer ! lancement.sh a été rendu exécutable avec la commande : chmod 755 lancement.sh
 Ensuite, il a été ajouté dans le processus crontab qui permet d'exécuter des scripts en tâche de fond à des heures ou des circonstances précises : @reboot sh /home/pi/lancement.sh > /home/pi/logs/log.txt 2>&1.  Cette ligne va permettre d'effectuer la commande sh /home/pi/lancement.sh lors du démarrage et d'enregistrer les messages d'erreur et logs dans le fichier logs/log.txt. Si nécessaire, il est donc possible de regarder les messages de "sortie" du script dans le fichier log.txt.
-Voici le lien de notre diaporama si besoin :
 
 GPIO = General Purpose Input Output : le Raspberry Pi inclus 40 broches GPIO qui permettent de créer des circuits électroniques...
 
