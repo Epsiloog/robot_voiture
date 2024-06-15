@@ -1,5 +1,5 @@
 # robot_voiture
-Création d'un véhicule à quatre moteurs et 6 LEDs RGB commandés par un rapsberry pi et piloté par un clavier ou un téléphone en bluetooth.
+Création d'un véhicule à quatre moteurs et 6 LEDs RGB commandés par un rapsberry pi, lui même piloté par un clavier ou un téléphone en bluetooth.
 
 Ce document répertorie et apporte quelques précisions sur les fichiers de code utilisés durant notre projet. L’arborescence du dossier actuel ainsi que des images d'illustrations sont accessibles dans le dossier img.
     
