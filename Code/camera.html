@@ -1,0 +1,26 @@
+<div class="  d-flex align-items-center justify-content-center">
+	<video id="video" playsinline autoplay></video>
+</div>
+
+<script>
+	const video = document.getElementById('video');
+	const constraints = {
+	audio: false,
+	video: {
+		width: 1352,
+		height: 900
+		   }
+
+	};
+
+	async function init() {
+	const stream = await navigator.mediaDevices.getUserMedia(constraints);
+	handleSuccess(stream);
+	}
+
+	function handleSuccess (stream) {
+	window.stream = stream;
+	video.srcObject = stream;
+	}
+	init();
+</script>
