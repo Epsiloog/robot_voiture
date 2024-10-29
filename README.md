@@ -3,9 +3,9 @@ Création d'un véhicule à quatre moteurs et 6 LEDs RGB commandés par un rapsb
 
 Ce document répertorie et apporte quelques précisions sur les fichiers de code utilisés durant notre projet. L’arborescence du dossier actuel ainsi que des images d'illustrations sont accessibles dans le dossier img.
     
-    • V.1 code principal : move_keyboard.py  Ce programme fut le premier à diriger les moteurs de Flash-E en utilisant les flèches du clavier. 
-    
-    • V.2 finale : move_bt.py version avec commandes via l'application en bluetooth, mieux commentée.
+> • V.1 code principal : move_keyboard.py  Ce programme fut le premier à diriger les moteurs de Flash-E en utilisant les flèches du clavier. 
+
+> • V.2 finale : move_bt.py version avec commandes via l'application en bluetooth, mieux commentée.
 
 Le fichier de configuration wpa_supplicant.conf contient les informations de connexion aux réseaux sans fil. Il a permis de se connecter au partage de connexion de mon téléphone suite à son initialisation : wpa_supplicant -c/etc/wpa_supplicant/wpa_supplicant.conf -W -iwlan0 Cela fut fondamental pour controler le raspberry pi à distance en SSH ou avec VNC Viewer.
 
