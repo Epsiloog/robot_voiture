@@ -1,7 +1,7 @@
 echo Flash-E démarre !
 sudo su		#on passe en super administrateur (root)
 #On récupère puis installe les packets (mplayer: lecteur audio, alsa: ensemble de programmes pour jouer des sons (incorporé dans le noyau linux), mpg123: codec permettant de lire des fichiers mp3).
-#grâce à l'outils Advanced Package Tool avec comme option -Y qui répond oui aux questions posées ultérieurement.
+#grâce à l'outils Advanced Package Tool avec comme option -y qui répond oui aux questions posées ultérieurement.
 apt-get -y install mplayer mplayer-gui alsa-base alsa-utils pulseaudio mpg123
 #chargement du module snd_bcm2835
 modprobe snd_bcm2835
