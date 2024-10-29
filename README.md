@@ -1,5 +1,5 @@
 # Projet de fin d'année de NSI terminale
-Création d'un véhicule à quatre moteurs et 6 LEDs RGB commandés par un rapsberry pi, lui même piloté par un clavier ou un téléphone en bluetooth.
+Création d'un véhicule à quatre moteurs et 6 LEDs RGB commandés par un rapsberry pi, lui même piloté par un clavier ou un téléphone en bluetooth. Ce véhicule, nommé Flash-E a aussi été équipé d'une enceinte pour pouvoir lire des sons et par la suite (mai 2024), d'une caméra !
 
 Ce document répertorie et apporte quelques précisions sur les fichiers de code utilisés durant notre projet. L’arborescence du dossier actuel ainsi que des images d'illustrations sont accessibles dans le dossier **img**.
     
